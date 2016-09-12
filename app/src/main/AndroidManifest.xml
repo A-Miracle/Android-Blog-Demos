@@ -11,25 +11,22 @@
         <activity
             android:name=".MainActivity"
             android:label="MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
-
         <activity
             android:name=".blogcodes.mvc.MvcLoginAvtivity"
             android:label="MvcLoginAvtivity" />
         <activity
             android:name=".blogcodes.mvp.MvpLoginActivity"
             android:label="MvpLoginActivity">
-
         </activity>
         <activity
             android:name=".blogcodes.mvvm.MvvmLoginAvtivity"
             android:label="MvvmLoginAvtivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
     </application>
 
